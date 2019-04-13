@@ -1759,7 +1759,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #b4ccbe;
+  background: #aaab8c;
 }
 .feed-link,
 .chat {
@@ -2496,7 +2496,7 @@ embed {
 }
 @media screen and (min-width: 1200px) {
   body {
-    background-image: url("http://i2.bvimg.com/683650/313c2fa01280c0a3.jpg");
+    background-image: url("http://i2.bvimg.com/683650/f80745e2bf489f8a.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 50% 50%;
