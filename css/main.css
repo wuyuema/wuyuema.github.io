@@ -1759,7 +1759,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #44e5eb;
+  background: #66a1ff;
 }
 .feed-link,
 .chat {
@@ -2494,7 +2494,7 @@ embed {
   -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
   -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 800px) {
   body {
     background-image: url("https://t1.picb.cc/uploads/2019/04/14/VLdGXD.jpg");
     background-repeat: no-repeat;
