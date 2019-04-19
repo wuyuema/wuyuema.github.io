@@ -49,7 +49,7 @@ rss:
 
 footer:
   # Specify the date when the site was setup. If not defined, current year will be used.
-  since: 2019
+  since: 2017
 
   # Icon between year and copyright info.
   icon:
@@ -234,7 +234,7 @@ avatar:
   # If true, the avatar would be dispalyed in circle.
   rounded: false
   # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
-  opacity: 0.8
+  opacity: 1
   # If true, the avatar would be rotated with the cursor.
   rotated: false
 
@@ -258,7 +258,7 @@ sidebar:
   # Manual define the sidebar width. If commented, will be default for:
   # Muse | Mist: 320
   # Pisces | Gemini: 240
-  width: 240
+  width: 280
 
   # Sidebar Display, available values (only for Muse | Mist):
   #  - post    expand on posts automatically. Default.
@@ -284,8 +284,8 @@ back2top:
 # A button to open designated chat widget in sidebar.
 # Firstly, you need enable the chat service you want to activate its sidebar button.
 chat:
-  enable: true
-  service: chatra
+  enable: false
+  #service: chatra
   #service: tidio
   icon: comment # icon in Font Awesome 4, set false to disable icon
   text: Chat # button text, change it as you wish
