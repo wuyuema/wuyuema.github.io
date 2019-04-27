@@ -1,6 +1,7 @@
 title: Test - Editing with Hexo Admin
 author: wuyuema
-tags: [无聊]
+tags:
+  - 无聊
 categories: []
 date: 2019-04-14 01:34:00
 ---
@@ -11,12 +12,15 @@ date: 2019-04-14 01:34:00
 
 markdown的使用
 ---
-1.特殊标记符号  
-如果要插入空行：
+1. 特殊标记符号    
+如果要插入空行：  
 ```html  
 </br>
 ```
-如果要截断文章：
+如果要截断文章：  
 ```html  
 <!--more-->
-```
+```  
+
+2. 其他的详见[这里](https://www.jianshu.com/p/335db5716248)  
+	_gugugu_  
