@@ -53,18 +53,18 @@ DNS
 > 1. `Add Site`，输入你刚刚注册的域名。  
 > 2. 一路确认，注意要选择免费的选项。  
 > 3. 在这里截图，复制框框里面的ns地址。  
-![](https://ws1.sinaimg.cn/large/69bcb682gy1g2ysmbbcy6j20nu0fymxq.jpg)  
+![](https://ws1.sinaimg.cn/large/69bcb682gy1g2yvul93epj20nu0fy43t.jpg)  
 > 4. 回到freenom的网站管理页面，`Manage Domain-->Manegement Tools-->Nameservers`，勾选`Use custom nameservers (enter below)`，把Nameserver 1和2换成你刚刚复制的地址。  
 > 5. 回到cloudflare的操作页面，点`Continue`，进入解析管理。等一~~小~~会儿（几分钟~十几小时），刷新，直到——  
-![](https://ws1.sinaimg.cn/large/69bcb682gy1g2ysvh0ksfj20lt03i748.jpg)  
+![](https://ws1.sinaimg.cn/large/69bcb682gy1g2yvukx8ryj20lt03iab2.jpg)  
 > 6. 得到汝自己的xxx.github.io所在服务器的ip地址。具体操作：  
 `ping julao.github.io`  </br>
-![](https://ws1.sinaimg.cn/large/69bcb682gy1g2yt18ar8sj20el01f745.jpg)  
+![](https://ws1.sinaimg.cn/large/69bcb682gy1g2yvukr3nzj20el01fmxr.jpg)  
 > 7. 添加A记录。像这样填：  
-![](https://ws1.sinaimg.cn/large/69bcb682gy1g2ysy4hdkxj20s406jmx9.jpg)  ip地址从185.199.108.153到185.199.xxx+1.153(xxx是汝ping的数字)的A记录都加上最好，玄学。  
+![](https://ws1.sinaimg.cn/large/69bcb682gy1g2yvul0v6hj20s406jju7.jpg)  ip地址从185.199.108.153到185.199.xxx+1.153(xxx是汝ping的数字)的A记录都加上最好，玄学。  
 > 8. 添加CNAME。像这样填：  
-![](https://ws1.sinaimg.cn/large/69bcb682gy1g2yt4h9uahj20s701odfo.jpg)  填完了之后像这样子：  
-![](https://ws1.sinaimg.cn/large/69bcb682gy1g2yt571rg5j20t60af3yu.jpg)
+![](https://ws1.sinaimg.cn/large/69bcb682gy1g2yvuknxvxj20s701oq3g.jpg)  填完了之后像这样子：  
+![](https://ws1.sinaimg.cn/large/69bcb682gy1g2yvul4ph6j20t60afq5x.jpg)
 
 Github Repo  
 ---
