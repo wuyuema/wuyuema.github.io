@@ -82,3 +82,9 @@ deploy:
   repo: git@github.com:wuyuema/wuyuema.github.io.git
   branch: master
   message: Blog on Hexo
+  
+# hexo-admin authentification
+admin:
+  username: wuyuema
+  password_hash: $2a$10$hx2qUv5gOgwxnPofkAObE.bTSMLQFnpXAHdi34m/uP7MRCUCwgwNC
+  secret: I See you ,I forEsee thou!
