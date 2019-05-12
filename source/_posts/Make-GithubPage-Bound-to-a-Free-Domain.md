@@ -58,10 +58,8 @@ DNS
 > 5. 回到cloudflare的操作页面，点`Continue`，进入解析管理。等一~~小~~会儿（几分钟~十几小时），刷新，直到——  
 ![](https://ws1.sinaimg.cn/large/69bcb682gy1g2ysvh0ksfj20lt03i748.jpg)  
 > 6. 得到汝自己的xxx.github.io所在服务器的ip地址。具体操作：  
-```bash  
-ping julao.github.io
-```  
-![](https://ws1.sinaimg.cn/large/69bcb682gy1g2yt18ar8sj20el01f745.jpg)
+`ping julao.github.io`  </br>
+![](https://ws1.sinaimg.cn/large/69bcb682gy1g2yt18ar8sj20el01f745.jpg)  
 > 7. 添加A记录。像这样填：  
 ![](https://ws1.sinaimg.cn/large/69bcb682gy1g2ysy4hdkxj20s406jmx9.jpg)  ip地址从185.199.108.153到185.199.xxx+1.153(xxx是汝ping的数字)的A记录都加上最好，玄学。  
 > 8. 添加CNAME。像这样填：  
@@ -72,21 +70,12 @@ Github Repo
 ---
 最后是github仓库的设置。打开汝等的\*\*\*.github.io的设置，找到`Custom Domain`，输入刚刚注册的域名，save，等一会儿，勾选下面的`Enforce HTTPS`。当看到这个提示的时候，操作成功。现在应该能够直接从新域名访问页面了！  
 不过呢，如果就这么结束的话，以后的每一次hexo更新操作都会把Custom Domain重置。为了解决问题，需要在hexo中继续设置。  
-> 1. 修改`~/_config.yml`，找到  
-```plain  
-# URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
-permalink: :year/:month/:day/:title/
-permalink_defaults:
-```
-将url修改成汝的域名。  
+> 1. 修改`~/_config.yml`，找到并将url改成自己的。
 > 2. 在`~/source/`下，新建空白文件，命名为CNAME，内容如下：  
-```
-yoursite.xx
-www.yoursite.xx
-```  
+	```
+	yoursite.xx
+	www.yoursite.xx
+	```  
 然后`hexo clean`、`hexo g -d`。
 
 ***
