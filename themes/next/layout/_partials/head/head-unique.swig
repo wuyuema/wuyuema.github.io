@@ -26,3 +26,5 @@
     sidebar: {{ page.sidebar | json_encode }},
   };
 </script>
+
+<meta name="referrer" content="no-referrer"/>

@@ -1,4 +1,5 @@
 <header class="post-header">
+<meta name="referrer" content="no-referrer"/>
 
 <{% if theme.seo %}h2{% else %}h1{% endif %} class="post-title" itemprop="name headline">
   {{- page.title -}}
