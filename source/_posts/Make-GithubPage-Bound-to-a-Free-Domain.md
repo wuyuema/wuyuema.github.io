@@ -71,6 +71,23 @@ ping julao.github.io
 Github Repo  
 ---
 最后是github仓库的设置。打开汝等的\*\*\*.github.io的设置，找到`Custom Domain`，输入刚刚注册的域名，save，等一会儿，勾选下面的`Enforce HTTPS`。当看到这个提示的时候，操作成功。现在应该能够直接从新域名访问页面了！  
+不过呢，如果就这么结束的话，以后的每一次hexo更新操作都会把Custom Domain重置。为了解决问题，需要在hexo中继续设置。  
+> 1. 修改`~/_config.yml`，找到  
+```plain  
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: http://yoursite.com
+root: /
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+```
+将url修改成汝的域名。  
+> 2. 在`~/source/`下，新建空白文件，命名为CNAME，内容如下：  
+```
+yoursite.xx
+www.yoursite.xx
+```  
+然后`hexo clean`、`hexo g -d`。
 
 ***
 
