@@ -1,6 +1,8 @@
 title: Hello World
-tags: [无聊]
-categories: []
+tags:
+  - 无聊
+categories:
+  - 琐碎
 author: wuyuema
 date: 2019-03-10 17:34:00
 ---

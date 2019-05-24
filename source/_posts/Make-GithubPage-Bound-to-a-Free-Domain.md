@@ -1,7 +1,10 @@
 title: Make GithubPage Bound to a Free Domain
 author: wuyuema
-tags: []
-categories: []
+tags:
+  - hexo
+  - 网络
+categories:
+  - 随笔
 date: 2019-05-11 23:57:00
 ---
 新域名完成祭  

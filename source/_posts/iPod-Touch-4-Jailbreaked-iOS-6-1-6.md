@@ -1,8 +1,11 @@
 title: iPod Touch 4 Jailbreaked - iOS 6.1.6
 author: wuyuema
 tags:
+  - iTouch
+  - iOS
+  - 越狱
+categories:
   - 随笔
-categories: []
 date: 2019-04-27 22:42:00
 ---
 因为想在老系统上用网易云和一个人聊天，于是决定越狱。  

@@ -1,8 +1,11 @@
 title: C++ Pointer WTF
 author: wuyuema
 tags:
+  - C/C++
+  - wtf
+  - ''
+categories:
   - 琐碎
-categories: []
 date: 2019-05-01 02:54:00
 ---
 今天总算知道为什么都不建议OIer用指针了......  

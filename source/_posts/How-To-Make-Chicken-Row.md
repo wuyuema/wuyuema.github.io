@@ -1,8 +1,9 @@
 title: How To Make Chicken Row~
 author: wuyuema
 tags:
+  - 吃饭饭
+categories:
   - 生活
-categories: []
 date: 2019-05-04 00:53:00
 ---
 这是群里人妻样的聊天记录，被吾辈偷偷拿笔记下来了！  

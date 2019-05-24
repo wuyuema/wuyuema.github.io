@@ -1,8 +1,10 @@
 title: Hexo Command Keybind
 author: wuyuema
 tags:
+  - blog
+  - 效率
+categories:
   - 琐碎
-categories: []
 date: 2019-05-12 23:46:00
 ---
 Based on CMDer: 

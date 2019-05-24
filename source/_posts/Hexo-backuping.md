@@ -1,8 +1,12 @@
 title: Hexo backuping!
 author: wuyuema
 tags:
+  - 转载
+  - hexo
+  - github
+  - ''
+categories:
   - 随笔
-categories: []
 date: 2019-04-14 23:41:00
 ---
 备份基于hexo的博客，使用github

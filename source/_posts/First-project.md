@@ -1,8 +1,11 @@
 title: First project
-date: 2019-03-31 21:25:44
-tags: [随笔]
+tags:
+  - 项目
+  - gitsh
 author: wuyuema
-categories: []
+categories:
+  - 随笔
+date: 2019-03-31 21:25:00
 ---
 
 Github上的第一个项目，是[**GiTSH**](https://github.com/wuyuema/GiTSH)。
