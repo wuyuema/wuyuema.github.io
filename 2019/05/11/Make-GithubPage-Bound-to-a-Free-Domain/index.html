@@ -1,0 +1,1009 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="zh-CN">
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="referrer" content="no-referrer">
+
+
+
+
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link rel="stylesheet" href="/lib/pace/pace-theme-minimal.min.css?v=1.0.2">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2">
+
+<link rel="stylesheet" href="/css/main.css?v=7.1.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.1.0">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/pigeon-32x32.png?v=7.1.0">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/pigeon-16x16.png?v=7.1.0">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=7.1.0" color="#222">
+
+
+
+
+
+
+
+<script id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    version: '7.1.0',
+    sidebar: {"position":"right","width":280,"display":"post","offset":12,"onmobile":true,"dimmer":true},
+    back2top: true,
+    back2top_sidebar: false,
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":true,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta name="description" content="新域名完成祭">
+<meta name="keywords" content="hexo,网络">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Make GithubPage Bound to a Free Domain">
+<meta property="og:url" content="http://yoursite.com/2019/05/11/Make-GithubPage-Bound-to-a-Free-Domain/index.html">
+<meta property="og:site_name" content="Aya ☆">
+<meta property="og:description" content="新域名完成祭">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="https://ws1.sinaimg.cn/large/69bcb682gy1g2yvul93epj20nu0fy43t.jpg">
+<meta property="og:image" content="https://ws1.sinaimg.cn/large/69bcb682gy1g2yvukx8ryj20lt03iab2.jpg">
+<meta property="og:image" content="https://ws1.sinaimg.cn/large/69bcb682gy1g2yvukr3nzj20el01fmxr.jpg">
+<meta property="og:image" content="https://ws1.sinaimg.cn/large/69bcb682gy1g2yvul0v6hj20s406jju7.jpg">
+<meta property="og:image" content="https://ws1.sinaimg.cn/large/69bcb682gy1g2yvuknxvxj20s701oq3g.jpg">
+<meta property="og:image" content="https://ws1.sinaimg.cn/large/69bcb682gy1g2yvul4ph6j20t60afq5x.jpg">
+<meta property="og:updated_time" content="2020-07-26T05:51:07.384Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Make GithubPage Bound to a Free Domain">
+<meta name="twitter:description" content="新域名完成祭">
+<meta name="twitter:image" content="https://ws1.sinaimg.cn/large/69bcb682gy1g2yvul93epj20nu0fy43t.jpg">
+
+
+
+
+
+  
+  
+  <link rel="canonical" href="http://yoursite.com/2019/05/11/Make-GithubPage-Bound-to-a-Free-Domain/">
+
+
+
+<script id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+<meta name="referrer" content="no-referrer">
+  <title>Make GithubPage Bound to a Free Domain | Aya ☆</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-right page-post-detail">
+    
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Aya ☆</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="切换导航栏">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-about">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>关于</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-tags">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-categories">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档</a>
+
+  </li>
+
+      
+      
+    </ul>
+  
+
+  
+    
+
+  
+
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/05/11/Make-GithubPage-Bound-to-a-Free-Domain/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="wuyuema">
+      <meta itemprop="description" content="鸽王之王派洛依">
+      <meta itemprop="image" content="https://i.loli.net/2019/07/21/5d3410d4737d724074.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Aya ☆">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">Make GithubPage Bound to a Free Domain
+
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-05-11 23:57:00" itemprop="dateCreated datePublished" datetime="2019-05-11T23:57:00+08:00">2019-05-11</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2020-07-26 13:51:07" itemprop="dateModified" datetime="2020-07-26T13:51:07+08:00">2020-07-26</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/随笔/" itemprop="url" rel="index"><span itemprop="name">随笔</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="新域名完成祭"><a href="#新域名完成祭" class="headerlink" title="新域名完成祭  "></a>新域名完成祭  </h1><a id="more"></a>  
+<p>之前逛洛谷日报的时候，看到大佬发了一份贴域名的教程。（–&gt;<a href="https://www.cokemine.com/wp-hxo.html" target="_blank" rel="noopener">原文</a>）<br>本来抱着激动的心情来弄，结果中途由于咱太笨，遇到了一些没见过的错误。比如，以为A Record是自动生成的之类的，因为以前从来没有接触过DNS解析什么的，所以几乎理解不能。<br>后来咱自觉地STFB，找了很多教程，但是大多步骤不全或有问题，导致一直没有弄好。经历了各种碰壁之后，咱终于成功把博客挂在了自己的域名上！  </p>
+<p>以下正文  </p>
+<hr>
+<h1 id="原理"><a href="#原理" class="headerlink" title="原理  "></a>原理  </h1><p>阅读时间：30 sec<br>咱有一个域名。<br>咱有一个Github Page。<br>咱的Github Page被塞在github的某一个服务器上。<br>咱用DNS把这个域名解析到这个服务器。<br>咱最后通过github内部的设置，把这个page拎出来，挂在你的域名上。<br>Access!<br>（然后，咱不明白为什么有了github自己的DNS解析，还要再弄一个第三方DNS…不管了，反正加一个又不会死人！）</p>
+<h1 id="步骤"><a href="#步骤" class="headerlink" title="步骤 "></a>步骤 </h1><p>阅读时间：4 min<br>预计操作时间：20 ~ 90(or 20 ~ 2147483647) min</p>
+<h2 id="Github-Pages"><a href="#Github-Pages" class="headerlink" title="Github Pages  "></a>Github Pages  </h2><p>请自行查找文档。咱使用Github Pages + Hexo + nexT构建博客。  </p>
+<h2 id="域名"><a href="#域名" class="headerlink" title="域名  "></a>域名  </h2><p>在完成博客页面的初始化后，github的服务器会自动在一个ip上面挂上汝等的页面，并且在<code>github.io</code>这个顶级域名前面加上汝的nickname，这里假设汝名为<code>julao</code>，那么汝就可以在<code>julao.github.io</code>这个域名看到自己的网站了。<br>而咱们今天的重点，就是把这个长得又丑又长的<code>\*.github.io</code>变得简明扼要，比如咱的<a href="https://wuyuema.cf" target="_blank" rel="noopener">wuyuema.cf</a>。<br>首先，汝等想要有这样一行域名，没有几两银子是不行的。要是天底下的域名都免费，一个人只要从第一个字符到最后一个字符全排列一下，就没有空闲的域名给汝等用了。因此，几乎所有的域名，都<strong>不是免费</strong>的，也都<strong>不是永久</strong>的。<br>然而如果汝等看到这里就打起了退堂鼓，可是会被咱好好嘲讽一番的。咱的标题都说了，咱有办法给汝的狗窝贴上免费的域名。<br><a href="https://www.freenom.com" target="_blank" rel="noopener"><strong>Freenom</strong></a>是一个公益的网站，提供每12个月$0的域名。咱们今天就用这个网站注册域名。<br>注册好账户然后登入进去。  </p>
+<blockquote>
+<ol>
+<li>在顶部的<code>Services--&gt;Register a New Domain</code>里面，输入你想要的名字，比如<code>chickURSoBeautiful</code>，<code>Check Availability</code>。  </li>
+<li>在<code>.tk</code>、<code>.ml</code>、<code>.ga</code>、<code>.cf</code>、<code>gq</code>里面挑一个点<code>Get it now!</code>，<code>Checkout</code>。  </li>
+<li><code>Period</code>调成<code>12 Month @ FREE</code>，<code>Use your new domain</code>选择<code>Use DNS--&gt;Use your own DNS</code>。  </li>
+<li>两个<code>Nameserver</code>分别填上<code>f1g1ns1.dnspod.net</code>和<code>f1g1ns2.dnspod.net</code>。（这两个是dnspod的ns服务器地址，先随便填两个，后面再改）  </li>
+<li><code>Continue</code>，在<code>Your Details</code>里面随便填上一些随机字符糊弄一下，勾上<code>I have read and agree to the Terms &amp; Conditions</code>，<code>Complete Order</code>。  </li>
+<li>等一会儿，就可以在<code>Services--&gt;My Domains</code>里面查看域名状态了。点<code>Manage Domain--&gt;Manegement Tools--&gt;Nameservers</code>，勾选<code>Use default nameservers (Freenom Nameservers)</code>。  </li>
+</ol>
+</blockquote>
+<h2 id="DNS"><a href="#DNS" class="headerlink" title="DNS  "></a>DNS  </h2><p>咱们今天以<a href="www.cloudflare.com"><strong>Cloudflare</strong></a>为免费DNS解析服务商。何为而择其国外服务商焉？以国内须备案，弃之。<br>注册好账号然后登录进去。  </p>
+<blockquote>
+<ol>
+<li><code>Add Site</code>，输入你刚刚注册的域名。  </li>
+<li>一路确认，注意要选择免费的选项。  </li>
+<li>在这里截图，复制框框里面的ns地址。<br><img src="https://ws1.sinaimg.cn/large/69bcb682gy1g2yvul93epj20nu0fy43t.jpg" alt>  </li>
+<li>回到freenom的网站管理页面，<code>Manage Domain--&gt;Manegement Tools--&gt;Nameservers</code>，勾选<code>Use custom nameservers (enter below)</code>，把Nameserver 1和2换成你刚刚复制的地址。  </li>
+<li>回到cloudflare的操作页面，点<code>Continue</code>，进入解析管理。等一<del>小</del>会儿（几分钟~十几小时），刷新，直到——<br><img src="https://ws1.sinaimg.cn/large/69bcb682gy1g2yvukx8ryj20lt03iab2.jpg" alt>  </li>
+<li>得到汝自己的xxx.github.io所在服务器的ip地址。具体操作：<br><code>ping julao.github.io</code>  <br><br><img src="https://ws1.sinaimg.cn/large/69bcb682gy1g2yvukr3nzj20el01fmxr.jpg" alt>  </li>
+<li>添加A记录。像这样填：<br><img src="https://ws1.sinaimg.cn/large/69bcb682gy1g2yvul0v6hj20s406jju7.jpg" alt>  ip地址从185.199.108.153到185.199.xxx+1.153(xxx是汝ping的数字)的A记录都加上最好，玄学。  </li>
+<li>添加CNAME。像这样填：<br><img src="https://ws1.sinaimg.cn/large/69bcb682gy1g2yvuknxvxj20s701oq3g.jpg" alt>  填完了之后像这样子：<br><img src="https://ws1.sinaimg.cn/large/69bcb682gy1g2yvul4ph6j20t60afq5x.jpg" alt></li>
+</ol>
+</blockquote>
+<h2 id="Github-Repo"><a href="#Github-Repo" class="headerlink" title="Github Repo  "></a>Github Repo  </h2><p>最后是github仓库的设置。打开汝等的***.github.io的设置，找到<code>Custom Domain</code>，输入刚刚注册的域名，save，等一会儿，勾选下面的<code>Enforce HTTPS</code>。当看到这个提示的时候，操作成功。现在应该能够直接从新域名访问页面了！<br>不过呢，如果就这么结束的话，以后的每一次hexo更新操作都会把Custom Domain重置。为了解决问题，需要在hexo中继续设置。  </p>
+<blockquote>
+<ol>
+<li>修改<code>~/_config.yml</code>，找到并将url改成自己的。</li>
+<li>在<code>~/source/</code>下，新建空白文件，命名为CNAME，内容如下：  <pre><code>yoursite.xx
+www.yoursite.xx
+</code></pre>然后<code>hexo clean</code>、<code>hexo g -d</code>。</li>
+</ol>
+</blockquote>
+<hr>
+<p>完结撒花！！！<br>P.S. PicGo真好用ωωω</p>
+
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/hexo/" rel="tag"># hexo</a>
+          
+            <a href="/tags/网络/" rel="tag"># 网络</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/05/04/How-To-Make-Chicken-Row/" rel="next" title="How To Make Chicken Row~">
+                <i class="fa fa-chevron-left"></i> How To Make Chicken Row~
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/05/12/Hexo-Command-Keybind/" rel="prev" title="Hexo Command Keybind">
+                Hexo Command Keybind <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+  </div>
+
+
+          </div>
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="https://i.loli.net/2019/07/21/5d3410d4737d724074.jpg" alt="wuyuema">
+            
+              <p class="site-author-name" itemprop="name">wuyuema</p>
+              <div class="site-description motion-element" itemprop="description">鸽王之王派洛依</div>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">13</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  
+                    
+                      <a href="/categories/">
+                    
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">4</span>
+                    <span class="site-state-item-name">分类</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  
+                    
+                      <a href="/tags/">
+                    
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">22</span>
+                    <span class="site-state-item-name">标签</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
+
+          
+
+          
+
+          
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="https://github.com/wuyuema" title="GitHub &rarr; https://github.com/wuyuema" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="mailto:wuyuema20020528@163.com" title="E-Mail &rarr; mailto:wuyuema20020528@163.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="tg:@wuyuema" title="Telegram &rarr; tg:@wuyuema" rel="noopener" target="_blank"><i class="fa fa-fw fa-telegram"></i>Telegram</a>
+                </span>
+              
+            </div>
+          
+
+          
+
+          
+          
+            <div class="links-of-blogroll motion-element links-of-blogroll-block">
+              <div class="links-of-blogroll-title">
+                <i class="fa  fa-fw fa-link"></i>
+                Links
+              </div>
+              <ul class="links-of-blogroll-list">
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://beacon1096.github.io" title="https://beacon1096.github.io" rel="noopener" target="_blank">Beacon Nyan</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://xingsenblog.com" title="https://xingsenblog.com" rel="noopener" target="_blank">邢森</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+
+          
+            
+          
+          
+
+        </div>
+      </div>
+
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#新域名完成祭"><span class="nav-number">1.</span> <span class="nav-text">新域名完成祭  </span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#原理"><span class="nav-number">2.</span> <span class="nav-text">原理  </span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#步骤"><span class="nav-number">3.</span> <span class="nav-text">步骤 </span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Github-Pages"><span class="nav-number">3.1.</span> <span class="nav-text">Github Pages  </span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#域名"><span class="nav-number">3.2.</span> <span class="nav-text">域名  </span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#DNS"><span class="nav-number">3.3.</span> <span class="nav-text">DNS  </span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Github-Repo"><span class="nav-number">3.4.</span> <span class="nav-text">Github Repo  </span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+  
+    <div id="sidebar-dimmer"></div>
+  
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; 2017 – <span itemprop="copyrightYear">2020</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-star-o"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">wuyuema</span>
+
+  
+
+  
+</div>
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+    
+
+    
+  </div>
+
+  
+
+<script>
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+      
+    
+  
+  <script color="0,0,255" opacity="0.2" zindex="-1" count="139" src="//cdn.jsdelivr.net/gh/theme-next/theme-next-canvas-nest@1.0.0/canvas-nest.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+
+  
+
+
+  <script src="/js/utils.js?v=7.1.0"></script>
+
+  <script src="/js/motion.js?v=7.1.0"></script>
+
+
+
+  
+  
+
+
+  <script src="/js/schemes/muse.js?v=7.1.0"></script>
+
+
+
+  
+  <script src="/js/scrollspy.js?v=7.1.0"></script>
+<script src="/js/post-details.js?v=7.1.0"></script>
+
+
+
+  
+
+
+  <script src="/js/next-boot.js?v=7.1.0"></script>
+
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
