@@ -29,4 +29,6 @@ type: "About"
 你没有看到“鸽王之王”四个大字么？  
 Naive~  
 
+测试一下！
+
 [来打我吧！](https://github.com/wuyuema)
